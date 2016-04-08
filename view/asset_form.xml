@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook" position="before">
+        <label name="home_assessment"/>
+        <field name="home_assessment"/>
+        <label name="energy_certificate"/>
+        <field name="energy_certificate"/>
+        <label name="land_register"/>
+        <field name="land_register"/>
+    </xpath>
+</data>

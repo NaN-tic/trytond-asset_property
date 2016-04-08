@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <record model="ir.action.act_window" id="act_asset_propertys">
+            <field name="name">Properties</field>
+            <field name="res_model">asset</field>
+            <field name="domain" eval="[('type', '=', 'property')]" pyson="1"/>
+            <field name="context" eval="{'type': 'property'}" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_property_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="asset.asset_view_list"/>
+            <field name="act_window" ref="act_asset_propertys"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_property_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="asset.asset_view_form"/>
+            <field name="act_window" ref="act_asset_propertys"/>
+        </record>
+
+        <record model="ir.ui.view" id="asset_view_form">
+            <field name="model">asset</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="asset.asset_view_form"/>
+            <field name="name">asset_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="asset_view_list">
+            <field name="model">asset</field>
+            <field name="type">tree</field>
+            <field name="inherit" ref="asset.asset_view_list"/>
+            <field name="name">asset_list</field>
+        </record>
+
+        <menuitem action="act_asset_propertys" id="menu_asset_property_from"
+            parent="asset.menu_asset" sequence="20"/>
+
+        <record model="ir.ui.menu-res.group" id="menu_asset_group_asset2">
+            <field name="menu" ref="menu_asset_property_from"/>
+            <field name="group" ref="asset.group_asset"/>
+        </record>
+    </data>
+</tryton>

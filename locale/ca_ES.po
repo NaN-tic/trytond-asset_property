@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:asset,energy_certificate:"
+msgid "Energy Certificate"
+msgstr "Certificat D'energia"
+
+msgctxt "field:asset,home_assessment:"
+msgid "Home Assessment"
+msgstr "Cèdula d'habitabilitat"
+
+msgctxt "field:asset,land_register:"
+msgid "Land Register"
+msgstr "Cadastre"
+
+msgctxt "model:ir.action,name:act_asset_propertys"
+msgid "Property"
+msgstr "Immobles"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_property"
+msgid "Property"
+msgstr "Immobles"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_property_from"
+msgid "Property"
+msgstr "Immobles"
+
+msgctxt "selection:asset,type:"
+msgid "Property"
+msgstr "Immoble"
