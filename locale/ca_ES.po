@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -15,15 +15,15 @@ msgid "Land Register"
 msgstr "Cadastre"
 
 msgctxt "model:ir.action,name:act_asset_propertys"
-msgid "Property"
+msgid "Properties"
 msgstr "Immobles"
 
-msgctxt "model:ir.ui.menu,name:menu_asset_property"
+msgctxt "model:ir.ui.menu,name:"
 msgid "Property"
 msgstr "Immobles"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_property_from"
-msgid "Property"
+msgid "Properties"
 msgstr "Immobles"
 
 msgctxt "selection:asset,type:"
