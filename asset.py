@@ -6,9 +6,8 @@ from trytond.model import fields
 __all__ = ['Asset']
 
 
-class Asset:
+class Asset(metaclass=PoolMeta):
     __name__ = 'asset'
-    __metaclass__ = PoolMeta
 
     home_assessment = fields.Char('Home Assessment')
     energy_certificate = fields.Char('Energy Certificate')
