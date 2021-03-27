@@ -3,8 +3,6 @@
 from trytond.pool import PoolMeta
 from trytond.model import fields
 
-__all__ = ['Asset']
-
 
 class Asset(metaclass=PoolMeta):
     __name__ = 'asset'
